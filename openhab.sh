@@ -14,6 +14,10 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get install -y openhab2
 sudo apt-get install -y openhab2-addons
 
-sudo /etc/init.d/openhab2 start
-sudo /etc/init.d/openhab2 status
-sudo update-rc.d openhab2 defaults
+# initialize the new service (execute only once)
+sudo systemctl daemon-reload
+sudo systemctl enable openhab2.service
+
+#start and retrieve status
+sudo systemctl start openhab2.service
+sudo systemctl status openhab2.service
