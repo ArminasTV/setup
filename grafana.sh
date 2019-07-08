@@ -7,6 +7,10 @@ wget https://dl.grafana.com/oss/release/grafana-rpi_6.2.4_armhf.deb
 sudo dpkg -i grafana-rpi_6.2.4_armhf.deb 
 rm grafana*
 
-sudo service grafana-server start
-sudo update-rc.d grafana-server defaults
-sudo service grafana-server status
+# initialize the new service (execute only once)
+sudo systemctl daemon-reload
+sudo systemctl enable grafana-server.service
+
+#start and retrieve status
+sudo systemctl start grafana-server.service
+sudo systemctl status grafana-server.service
