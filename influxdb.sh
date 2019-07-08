@@ -8,6 +8,10 @@ echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/ap
 sudo apt-get update
 sudo apt-get install -y influxdb
 
-sudo service influxdb start
-sudo service influxdb status
-sudo update-rc.d influxdb defaults
+# initialize the new service (execute only once)
+sudo systemctl daemon-reload
+sudo systemctl enable influxdb.service
+
+#start and retrieve status
+sudo systemctl start influxdb.service
+sudo systemctl status influxdb.service
