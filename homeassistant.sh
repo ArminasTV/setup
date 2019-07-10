@@ -4,7 +4,7 @@ echo -e "******************************************************\n"
 echo -e "**************** Installation Home Assistant *********\n"
 echo -e "******************************************************\n"
 
-sudo apt-get update
+sudo apt-get update --allow-releaseinfo-change
 sudo curl -fsSL https://raw.githubusercontent.com/ArminasTV/setup/master/get-docker.sh | sh
 sudo usermod -aG docker pi
 
