@@ -5,22 +5,22 @@ En quelques minutes, je vous montre comment installer #openhab sur un raspberry 
 
 De plus, on peut configurer rapidement un influxdb/grafana pour la visualisation des données avec de jolies graphes.
 
-## Installer Openhab ( solution domotique ) : 
+### Installer Openhab ( solution domotique ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/openhab.sh" | bash -s
 
-## Installer Hass.io ( solution domotique ) : 
+### Installer Hass.io ( solution domotique ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/homeassistant.sh" | bash -s
 
-## Installer Influxdb (base de données temporelle ) : 
+### Installer Influxdb (base de données temporelle ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/influxdb.sh" | bash -s
 
-## Installer Grafana ( Solution web de visualisation de grapgique ) : 
+### Installer Grafana ( Solution web de visualisation de grapgique ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/grafana.sh" | bash -s
 
-## Installer Mosquitto: 
+### Installer Mosquitto: 
 sudo apt-get install mosquitto mosquitto-clients
 
-## Installer les conf pour Openhab : 
+### Installer les conf pour Openhab : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/openhab/setup.sh" | bash -s
 
 url sur le raspberry pi : 
