@@ -1,9 +1,7 @@
-Biienvenue sur github pour vous aider à l'installation des différentes solutions de domotique que je vous présente ici.
-[Ma chaine Youtube](https://www.youtube.com/channel/UCLoLYGnh66x9cMee-qBi3XQ/)
+# Venez découvrir mes vidéos [Ma chaine Youtube](https://www.youtube.com/channel/UCLoLYGnh66x9cMee-qBi3XQ/)
 
-En quelques minutes, je vous montre comment installer #openhab sur un raspberry pi. Une solution de domotique qui se bonifie avec le temps.
+Bienvenue sur mon github qui vous aidera à l'installation des différentes solutions de domotique.
 
-De plus, on peut configurer rapidement un influxdb/grafana pour la visualisation des données avec de jolies graphes.
 
 ### Installer Openhab ( solution domotique ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/openhab.sh" | bash -s
