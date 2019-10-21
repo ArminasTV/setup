@@ -12,7 +12,7 @@ curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/homeassistant
 ### Installer Influxdb (base de données temporelle ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/influxdb.sh" | bash -s
 
-### Installer Grafana ( Solution web de visualisation de grapgique ) : 
+### Installer Grafana ( Solution web de visualisation de graphique ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/grafana.sh" | bash -s
 
 ### Installer Mosquitto: 
