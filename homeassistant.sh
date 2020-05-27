@@ -10,4 +10,4 @@ sudo usermod -aG docker pi
 
 sudo apt-get install -y apparmor-utils apt-transport-https avahi-daemon ca-certificates curl dbus jq network-manager socat
 
-sudo curl -sL https://raw.githubusercontent.com/home-assistant/hassio-installer/master/hassio_install.sh | sudo bash -s -- -m raspberrypi3
+sudo curl -sL https://raw.githubusercontent.com/ArminasTV/setup/master/supervised-installer.sh | sudo bash -s -- -m raspberrypi3
