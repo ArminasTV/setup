@@ -8,7 +8,7 @@ echo 'deb https://openhab.jfrog.io/openhab/openhab-linuxpkg testing main' | sudo
 
 sudo apt-get update
  
-sudo apt-get install -y openjdk-8-jdk-headless
+sudo apt-get install -y openjdk-11-jdk-headless
 sudo apt-get install -y apt-transport-https
 
 sudo apt-get install -y openhab
