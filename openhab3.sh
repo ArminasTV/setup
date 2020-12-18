@@ -4,7 +4,7 @@ echo -e "******************************************************\n"
 echo -e "**************** Installation Openhab ****************\n"
 echo -e "******************************************************\n"
 wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | sudo apt-key add -
-echo 'deb https://dl.bintray.com/openhab/apt-repo2 stable main' | sudo tee /etc/apt/sources.list.d/openhab.list
+echo 'deb https://openhab.jfrog.io/openhab/openhab-linuxpkg testing main' | sudo tee /etc/apt/sources.list.d/openhab.list
 
 sudo apt-get update
  
