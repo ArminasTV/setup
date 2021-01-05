@@ -3,7 +3,10 @@
 Bienvenue sur mon github qui vous aidera à l'installation des différentes solutions de domotique.
 
 
-### Installer Openhab ( solution domotique ) : 
+### Installer Openhab 3.0 ( solution domotique ) : 
+curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/openhab3.sh" | bash -s
+
+### Installer Openhab 2.5 ( solution domotique obsolète ) : 
 curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/openhab.sh" | bash -s
 
 ### Installer Hass.io ( solution domotique ) : 
