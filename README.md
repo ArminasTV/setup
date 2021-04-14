@@ -1,5 +1,8 @@
 # Venez découvrir mes vidéos [Ma chaine Youtube](https://www.youtube.com/channel/UCLoLYGnh66x9cMee-qBi3XQ/)
 
+### Docker et portainer : 
+curl -sL "https://raw.githubusercontent.com/ArminasTV/setup/master/docker_portainer.sh" | bash -s
+
 Bienvenue sur mon github qui vous aidera à l'installation des différentes solutions de domotique.
 
 ### Installer Hass.io ( solution domotique ) : 
